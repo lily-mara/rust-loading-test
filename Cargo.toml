@@ -1,0 +1,11 @@
+[package]
+authors = ["Nate Mara <nate.mara@kroger.com> <nathan.mara@kroger.com>"]
+name = "foo"
+version = "0.1.0"
+
+[dependencies]
+libloading = "0.3.2"
+
+[lib]
+name = "foo"
+crate-type = ["dylib"]
